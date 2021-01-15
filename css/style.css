@@ -534,18 +534,46 @@ body {
 
   .catchcopy {
     font-size: 80px;
-    text-align: center;
     position: absolute;
     top: 350px;
+    left: 10px;
+    right: 10px;
+
+    text-align: center;
   }
 
   .news {
     width: 100%;
   }
 
-  /* .service .service-content {
-    position: static;
-  } */
+  .news_date,
+  .news_title {
+    font-size: 1.6rem;
+    line-height: 25px;
+    font-weight: bold;
+  }
+
+  .news-icon {
+    font-size: 2rem;
+  }
+
+  .mission-content {
+    height: 600px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+  }
+
+  .mission_title {
+    font-size: 3.4rem;
+  }
+
+  .mission_text {
+    font-size: 1.7rem;
+    line-height: 30px;
+    font-weight: bold;
+  }
 
   .service-img {
     width: 90%;
@@ -570,7 +598,7 @@ body {
   }
 
   .service-btn {
-    padding: 5px 30px;
+    padding: 5px 0px;
   }
 
   .recruit-company_size {
@@ -615,7 +643,7 @@ body {
   }
 
   .common-btn {
-    padding: 5px 40px;
+    padding: 0px 20px;
     font-size: 20px;
     white-space: nowrap;
   }
